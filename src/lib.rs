@@ -1,5 +1,3 @@
-extern crate cc;
-
 use std::path::{Path, PathBuf};
 use std::process::Command;
 use std::env;
