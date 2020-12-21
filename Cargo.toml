@@ -1,0 +1,11 @@
+[package]
+name = "keyutils-src"
+version = "0.1.0+1.6.3"
+authors = ["Qiu Wenbo <qiuwenbo@kylinos.com.cn>"]
+edition = "2018"
+
+[workspace]
+members = ["testcrate"]
+
+[dependencies]
+cc = "1.0"
