@@ -54,6 +54,7 @@ impl Build {
         let mut make = Command::new("make");
         make.args(&[
             "NO_SOLIB=1",
+            "USRLIBDIR=lib",
             &format!("DESTDIR={}", install_dir.display()),
             "install",
         ])
